@@ -10,6 +10,7 @@ class GamesControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get games_url
     assert_response :success
+    puts "success!!"
   end
 
   # You can add more tests below this line if needed.
